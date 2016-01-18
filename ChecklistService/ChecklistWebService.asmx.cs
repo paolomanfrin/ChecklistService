@@ -26,7 +26,7 @@ namespace ChecklistService
         [WebMethod]
         public string ProcessChecklist(string checklistNr)
         {
-            return "Processing of checklist " + checklistNr + " is completed";
+            return "Processing of checklist " + checklistNr + " is completed!";
         }
 
     }
